@@ -158,13 +158,19 @@ footer {
 }
 
 footer .links {
-  position: relative;
   display: flex;
-  right: 20rem;
-  /* justify-content: center; */
-  /* flex-wrap: wrap; */
-  gap: 10px;
-  font-size: 15px;
+  /* justify-content: center;   center horizontally */
+  /* align-items: center; */
+  flex-wrap: wrap;           /* allow soft wrapping if space kam ho */
+  gap: 14px;                 /* equal spacing between links */
+  font-size: 13px;
+  color: #777;
+  white-space: normal;       /* allow normal wrapping when needed */
+  line-height: 18px;
+  position: relative;
+  right: 40rem;
+  width: 800rem;
+  padding: 10px 0;
 }
 
 footer .links a {
